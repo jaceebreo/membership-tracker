@@ -16,15 +16,21 @@ colorama==0.4.6
     #   click
 django==6.0
     # via -r requirements.in
+gunicorn==23.0.0
+    # via -r requirements.in
 mypy==1.18.1
     # via -r requirements.in
 mypy-extensions==1.1.0
     # via mypy
 packaging==25.0
-    # via build
+    # via
+    #   build
+    #   gunicorn
 pathspec==0.12.1
     # via mypy
 pip-tools==7.5.2
+    # via -r requirements.in
+psycopg2-binary==2.9.11
     # via -r requirements.in
 pyproject-hooks==1.2.0
     # via
