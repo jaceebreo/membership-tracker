@@ -1,3 +1,9 @@
+# Ignore environment variable files
+.env
+
+# Ignore database files
+*.sqlite3
+
+# Local virtual environment
 .venv
-db.sqlite3
 __pycache__/
