@@ -7,5 +7,6 @@ ruff==0.14.9
 
 # Web framework and database adapter
 Django==6.0
-psycopg2-binary==2.9.11
+# psycopg2-binary==2.9.11
 gunicorn==23.0.0
+pillow==12.0.0
