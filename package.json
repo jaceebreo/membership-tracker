@@ -1,0 +1,27 @@
+{
+  "name": "membership-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./memberships/static/memberships/css/tailwind.css -o ./memberships/static/memberships/css/output.css --minify",
+    "dev:css": "tailwindcss -i ./memberships/static/memberships/css/tailwind.css -o ./memberships/static/memberships/css/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaceebreo/membership-tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jaceebreo/membership-tracker/issues"
+  },
+  "homepage": "https://github.com/jaceebreo/membership-tracker#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.23",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.19"
+  }
+}
